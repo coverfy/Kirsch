@@ -67,7 +67,6 @@ class ViewController: UIViewController, KirschDelegate {
   
 }
 ```
-NOTE: There is another initializer with the default frame size (Kirsch(superview: self.view, applyFilterCallback: nil, ratio: 1.5))
 
 ### Options available
 ```swift 
