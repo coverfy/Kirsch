@@ -116,7 +116,7 @@ func getCapturedImageFiltered(_ image: UIImage?) {
 }
 ```
 
-## Based with
+## Based from
 Some ideas of this scanner has been taken from the IRLScanner (https://github.com/hartws1/IRLScanner)
 
 ## Author
