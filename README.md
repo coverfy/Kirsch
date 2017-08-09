@@ -86,7 +86,7 @@ Note: that the configure() should be called before the start() function.
 
 ### Control  Functions
 * Filter: Indicates the type of filter it's going to be applied (.contrast, .none)
-* Orientation: Helps the detector in which orientation the documents is going to be (.vertical, horizaontal)
+* Orientation: Helps the detector in which orientation the documents is going to be (.vertical, horizontal)
 
 ```swift 
 scanner.captureImage(withFilter: .contrast, andOrientation: .vertical) // Captures vertical image and applying a high contrast filter
