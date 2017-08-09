@@ -17,7 +17,7 @@ Kirsch is an elegant and simple scanner library to automatically scan documents 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
 ## Requirements
-- iOS 9.3+ 
+- iOS 9.0+ 
 - Xcode 8.1, 8.2, 8.3, and 9.0
 - Swift 3.0, 3.1, 3.2, and 4.0
 
