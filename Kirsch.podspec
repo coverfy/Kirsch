@@ -21,11 +21,11 @@ Pod::Spec.new do |s|
 This library provides a bunch of functions in order to convert and control the camera into an automatic scanner. This library is named before Russell A. Kirsch, the one who developed the first digital scanner
                        DESC
 
-  s.homepage         = 'https://github.com/coverfy/Kirsch'
+  s.homepage         = 'https://github.com/coverfy/KirschScanner'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'josepbordesjove' => 'josep.bordes@coverfy.com' }
-  s.source           = { :git => 'https://github.com/coverfy/Kirsch.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/coverfy/KirschScanner.git', :tag => s.version.to_s }
   s.social_media_url = 'https://twitter.com/coverfy'
 
   s.ios.deployment_target = '9.3'
