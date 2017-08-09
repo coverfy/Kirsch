@@ -70,13 +70,17 @@ class ViewController: UIViewController, KirschDelegate {
 NOTE: There is another initializer with the default frame size (Kirsch(superview: self.view, applyFilterCallback: nil, ratio: 1.5))
 
 ### Options available
-```swift scanner.isBlackFilterActivated // Activate the black filter ```
-```swift scanner.isFlashActive // Activate the flashlight of the phone ```
+```swift 
+scanner.isBlackFilterActivated // Activate the black filter 
+scanner.isFlashActive // Activate the flashlight of the phone 
+```
 
 ### Configuration Functions
-```swift scanner.configure() // Configure the scanner ```
-```swift scanner.start() // Start the scanner ```
-```swift scanner.stop() // Stop the scanner ```
+```swift 
+scanner.configure() // Configure the scanner
+scanner.start() // Start the scanner
+swift scanner.stop() // Stop the scanner
+```
 
 Note: that the configure() should be called before the start() function.
 
@@ -84,9 +88,11 @@ Note: that the configure() should be called before the start() function.
 * Filter: Indicates the type of filter it's going to be applied (.contrast, .none)
 * Orientation: Helps the detector in which orientation the documents is going to be (.vertical, horizaontal)
 
-```swift scanner.captureImage(withFilter: .contrast, andOrientation: .vertical) // Captures vertical image and applying a high contrast filter```
-```swift scanner.captureImage(withOrientation: .vertical) // Captures a vertical image without applying any filters```
-```swift scanner.captureImageWithNoCrop(withOrientation: .vertical) // Captures a vertical image without cropping any borders```
+```swift 
+scanner.captureImage(withFilter: .contrast, andOrientation: .vertical) // Captures vertical image and applying a high contrast filter
+scanner.captureImage(withOrientation: .vertical) // Captures a vertical image without applying any filters
+scanner.captureImageWithNoCrop(withOrientation: .vertical) // Captures a vertical image without cropping any borders
+```
 
 ## Delegate
 
