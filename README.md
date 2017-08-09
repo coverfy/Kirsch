@@ -32,7 +32,13 @@ pod "Kirsch"
 
 ## Usage
 ### Initialize and configure the scanner
+To initialize the scanner simply call it's initilaizer with the desired options. 
+* videoFrameOption: Indicates the size of the view where the video is displayed (.normal, .square, .fullScreen and .withBottomMargin)
+* applyFilterCallback: Should stay nil
+* ratio: The approximate ratio (height/width) of the document you want to scan
+
 ```swift
+import UIKit
 import Kirsch
 
 class ViewController: UIViewController, KirschDelegate {
@@ -61,13 +67,52 @@ class ViewController: UIViewController, KirschDelegate {
   
 }
 ```
+NOTE: There is another initializer with the default frame size (Kirsch(superview: self.view, applyFilterCallback: nil, ratio: 1.5))
 
 ### Options available
+```swift scanner.isBlackFilterActivated // Activate the black filter ```
+```swift scanner.isFlashActive // Activate the flashlight of the phone ```
 
-### Functions
-There are multiple functions to use the scanner
+### Configuration Functions
+```swift scanner.configure() // Configure the scanner ```
+```swift scanner.start() // Start the scanner ```
+```swift scanner.stop() // Stop the scanner ```
 
-### Delegate
+Note: that the configure() should be called before the start() function.
+
+### Control  Functions
+* Filter: Indicates the type of filter it's going to be applied (.contrast, .none)
+* Orientation: Helps the detector in which orientation the documents is going to be (.vertical, horizaontal)
+
+```swift scanner.captureImage(withFilter: .contrast, andOrientation: .vertical) // Captures vertical image and applying a high contrast filter```
+```swift scanner.captureImage(withOrientation: .vertical) // Captures a vertical image without applying any filters```
+```swift scanner.captureImageWithNoCrop(withOrientation: .vertical) // Captures a vertical image without cropping any borders```
+
+## Delegate
+
+The capturing progress indicates if an image is being well detected and the phone is able to capture it. When this progress arrives at 100%, the scanner has detected an stable image
+
+```swift
+func getCapturingProgress(_ progress: Float?) {
+  guard let progress = progress else { return }
+        
+  if progress >= 1 {
+    scanner.captureImage(withFilter: .contrast, andOrientation: .vertical)
+  }
+}
+```
+
+When the an image is captured, it will be returned by this delegate function 
+```swift
+func getCapturedImageFiltered(_ image: UIImage?) {
+  guard let capturedImage = image else { return }
+   
+  self.coverfyScanner.stop()
+}
+```
+
+## Based with
+Some ideas of this scanner has been taken from the IRLScanner (https://github.com/hartws1/IRLScanner)
 
 ## Author
 
