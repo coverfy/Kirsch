@@ -28,7 +28,7 @@ This library provides a bunch of functions in order to convert and control the c
   s.source           = { :git => 'https://github.com/coverfy/KirschScanner.git', :tag => s.version.to_s }
   s.social_media_url = 'https://twitter.com/coverfy'
 
-  s.ios.deployment_target = '9.3'
+  s.ios.deployment_target = '9.0'
 
   s.source_files = 'Kirsch/Classes/**/*'
   

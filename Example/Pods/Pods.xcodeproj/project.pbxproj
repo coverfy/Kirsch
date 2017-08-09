@@ -49,20 +49,20 @@
 		3EA49763AA426F7E0590B5711A94831B /* Pods-Kirsch_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Kirsch_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		4952D8E713FE591FA563B97E88F7AAA0 /* Pods-Kirsch_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Kirsch_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		59DA456C26BBEBD9E7ADB12BBC9698DC /* Pods-Kirsch_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Kirsch_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		5D69FFB65982E240C6CD46BEBFB8CBCD /* Kirsch.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Kirsch.framework; path = Kirsch.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D69FFB65982E240C6CD46BEBFB8CBCD /* Kirsch.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Kirsch.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		67AD4A4783D8ECC81E21DEEC460366E8 /* Pods_Kirsch_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Kirsch_Example.framework; path = "Pods-Kirsch_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		67AD4A4783D8ECC81E21DEEC460366E8 /* Pods_Kirsch_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Kirsch_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		67D35DDECF5517B223396F56D1D2BC6B /* Pods-Kirsch_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Kirsch_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		7149CE6BFE8C70C04F6F48AA6EC829D1 /* Kirsch-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Kirsch-dummy.m"; sourceTree = "<group>"; };
 		736C79569C122357E16D5DFCD30263EC /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7E82EE72C8D3F5D44BF75DC24068B5FA /* Pods-Kirsch_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Kirsch_Example-resources.sh"; sourceTree = "<group>"; };
 		82D3F546B8B5F0FDFF37436404173251 /* CIImage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CIImage.swift; sourceTree = "<group>"; };
-		82F23BF64354D05544F2E2E0F8697577 /* Pods-Kirsch_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-Kirsch_Example.modulemap"; sourceTree = "<group>"; };
+		82F23BF64354D05544F2E2E0F8697577 /* Pods-Kirsch_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Kirsch_Example.modulemap"; sourceTree = "<group>"; };
 		8C23C5410D10A05AAE871CD09015B7AC /* Pods-Kirsch_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Kirsch_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		8C61B9C8CD863830CB32F1A8D47D783E /* CSConstants.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CSConstants.swift; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9AD1B125D4CC37C0FD7669B32A04C43A /* Pods-Kirsch_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Kirsch_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		9B8EB1811D9E33FCA6C19A7E8FB12AA6 /* Pods-Kirsch_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-Kirsch_Tests.modulemap"; sourceTree = "<group>"; };
+		9B8EB1811D9E33FCA6C19A7E8FB12AA6 /* Pods-Kirsch_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Kirsch_Tests.modulemap"; sourceTree = "<group>"; };
 		AF5010B54F9340A99B4303E348F2F6CB /* Pods-Kirsch_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Kirsch_Tests-umbrella.h"; sourceTree = "<group>"; };
 		B25D3D90A669930DA186194CB9C8EB84 /* Pods-Kirsch_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Kirsch_Tests-dummy.m"; sourceTree = "<group>"; };
 		B3C5B988F350BFB254D5F26FABE0111E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -71,11 +71,11 @@
 		E33894F50BE0F52C7A7FA290B2520835 /* Pods-Kirsch_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Kirsch_Example.release.xcconfig"; sourceTree = "<group>"; };
 		E75B3BD70F1548C4BD4E590F8E61B034 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EA6D55BBBD4C7D6416E059A99E8385EC /* Kirsch.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Kirsch.xcconfig; sourceTree = "<group>"; };
-		EB093381356D157332D4333A13437780 /* Kirsch.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = Kirsch.modulemap; sourceTree = "<group>"; };
+		EB093381356D157332D4333A13437780 /* Kirsch.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = Kirsch.modulemap; sourceTree = "<group>"; };
 		EDD6A518D653CE8255F386247EFDC585 /* Kirsch-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Kirsch-prefix.pch"; sourceTree = "<group>"; };
 		EE4BB9A5972C4E9BEA6CD888BD6749AA /* Pods-Kirsch_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Kirsch_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		F13C580F9A395C3DC4F7D5FCE1C9EBCB /* Pods-Kirsch_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Kirsch_Example-frameworks.sh"; sourceTree = "<group>"; };
-		FFBF6521FFA99928FCC38D7114A0B023 /* Pods_Kirsch_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Kirsch_Tests.framework; path = "Pods-Kirsch_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FFBF6521FFA99928FCC38D7114A0B023 /* Pods_Kirsch_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Kirsch_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -178,7 +178,6 @@
 				13AD09DC1D86C6EAEBC8BCAC6355801A /* CSRectangle.swift */,
 				1B34718BF000C53BBF7A2C75B688E896 /* Kirsch.swift */,
 			);
-			name = Classes;
 			path = Classes;
 			sourceTree = "<group>";
 		};
@@ -207,7 +206,6 @@
 			children = (
 				76A2134E4329DE97674AC92178808F94 /* Classes */,
 			);
-			name = Kirsch;
 			path = Kirsch;
 			sourceTree = "<group>";
 		};
@@ -574,7 +572,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/Kirsch/Kirsch-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/Kirsch/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/Kirsch/Kirsch.modulemap";
 				MTL_ENABLE_DEBUG_INFO = NO;
@@ -656,7 +654,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/Kirsch/Kirsch-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/Kirsch/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/Kirsch/Kirsch.modulemap";
 				MTL_ENABLE_DEBUG_INFO = YES;
