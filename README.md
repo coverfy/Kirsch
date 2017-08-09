@@ -17,6 +17,9 @@ Kirsch is an elegant and simple scanner library to automatically scan documents 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
 ## Requirements
+- iOS 9.3+ 
+- Xcode 8.1, 8.2, 8.3, and 9.0
+- Swift 3.0, 3.1, 3.2, and 4.0
 
 ## Installation
 
@@ -28,6 +31,43 @@ pod "Kirsch"
 ```
 
 ## Usage
+### Initialize and configure the scanner
+```swift
+import Kirsch
+
+class ViewController: UIViewController, KirschDelegate {
+  
+  lazy var scanner: Kirsch = {
+    let scanner = Kirsch(superview: self.view, videoFrameOption: .fullScreen, applyFilterCallback: nil, ratio: 1.5)
+    scanner.configure()
+    
+    return scanner
+  }()
+
+  viewDidLoad() {
+    super.viewDidLoad()
+    
+    // Create the video filter
+    scanner.delegate = self
+  }
+  
+  override func viewDidAppear(_ animated: Bool) {
+    do {
+      try scanner.start()
+    } catch {
+      presentAlertView(title: "Some Error Occurred", message: error.localizedDescription)
+    }
+  }
+  
+}
+```
+
+### Options available
+
+### Functions
+There are multiple functions to use the scanner
+
+### Delegate
 
 ## Author
 
