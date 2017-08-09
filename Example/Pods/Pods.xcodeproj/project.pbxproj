@@ -1,0 +1,755 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		07B309B8BAB20CA7B3F06A5B7F63AED5 /* Pods-Kirsch_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B25D3D90A669930DA186194CB9C8EB84 /* Pods-Kirsch_Tests-dummy.m */; };
+		0AED8B151476A22849098AD0C40DFD09 /* Kirsch-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1BEEB50B9293AF3758B9BD517E1CCE82 /* Kirsch-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0D11D832121B45EE781C77747E41CEE3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		105891C68E99A0FAD0897FE89D8049E6 /* CGRect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19D561ADDBD1CDD59797C69ADB4E0081 /* CGRect.swift */; };
+		252D3FA7E9ABF2ACD65B4077830BBD74 /* CSConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C61B9C8CD863830CB32F1A8D47D783E /* CSConstants.swift */; };
+		27C14386B601E0F49574BC596B25EBD7 /* Pods-Kirsch_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 109F8F63D5D7483C9A905D123993208A /* Pods-Kirsch_Example-dummy.m */; };
+		40015C2F17DF3D0C02F2DE47F9D31908 /* CSEnums.swift in Sources */ = {isa = PBXBuildFile; fileRef = 384ECCE02F27989279F20BCE639AECFE /* CSEnums.swift */; };
+		44A344FD660930909733AEC9503A2857 /* CGPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0517D0AC46F7DF6AD5640AA545F9F0A0 /* CGPoint.swift */; };
+		46CA23BBBF4DF54CB852FE321A059EC2 /* Kirsch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B34718BF000C53BBF7A2C75B688E896 /* Kirsch.swift */; };
+		497B746302BAAAEB0338D24AA8F6F24B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		56ADC8C5A63C44525438075153E4F7DF /* CIImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82D3F546B8B5F0FDFF37436404173251 /* CIImage.swift */; };
+		6D1EFFE35EA3D232C7314369C2952113 /* Pods-Kirsch_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 29FF3B5EBE3EB89FD3A9593D76C6897D /* Pods-Kirsch_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7871D8C85CE744A634386037904C2327 /* CSPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = C74C0E3A05B059302FAF4CE905347C33 /* CSPoint.swift */; };
+		AD56CDB8EF09F55BDD1436C12A59002D /* CSRectangle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13AD09DC1D86C6EAEBC8BCAC6355801A /* CSRectangle.swift */; };
+		B15B7A5360DED6383165EE8BB2DB02D0 /* Kirsch-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7149CE6BFE8C70C04F6F48AA6EC829D1 /* Kirsch-dummy.m */; };
+		B3E7F71B84087A497A8129A9C041F92D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		BA75421A56325FDCE54AA433FDD85E55 /* Pods-Kirsch_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AF5010B54F9340A99B4303E348F2F6CB /* Pods-Kirsch_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2F42078B315A8C251BD4DBAC75174AF3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 11BA07C08FDB68C83D8A18BE59168988;
+			remoteInfo = Kirsch;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0517D0AC46F7DF6AD5640AA545F9F0A0 /* CGPoint.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CGPoint.swift; sourceTree = "<group>"; };
+		109F8F63D5D7483C9A905D123993208A /* Pods-Kirsch_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Kirsch_Example-dummy.m"; sourceTree = "<group>"; };
+		13AD09DC1D86C6EAEBC8BCAC6355801A /* CSRectangle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CSRectangle.swift; sourceTree = "<group>"; };
+		19D561ADDBD1CDD59797C69ADB4E0081 /* CGRect.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CGRect.swift; sourceTree = "<group>"; };
+		1B34718BF000C53BBF7A2C75B688E896 /* Kirsch.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Kirsch.swift; sourceTree = "<group>"; };
+		1BEEB50B9293AF3758B9BD517E1CCE82 /* Kirsch-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Kirsch-umbrella.h"; sourceTree = "<group>"; };
+		29FF3B5EBE3EB89FD3A9593D76C6897D /* Pods-Kirsch_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Kirsch_Example-umbrella.h"; sourceTree = "<group>"; };
+		34A8026B80904A98B701E41A51086F28 /* Pods-Kirsch_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Kirsch_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		384ECCE02F27989279F20BCE639AECFE /* CSEnums.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CSEnums.swift; sourceTree = "<group>"; };
+		3EA49763AA426F7E0590B5711A94831B /* Pods-Kirsch_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Kirsch_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		4952D8E713FE591FA563B97E88F7AAA0 /* Pods-Kirsch_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Kirsch_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		59DA456C26BBEBD9E7ADB12BBC9698DC /* Pods-Kirsch_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Kirsch_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		5D69FFB65982E240C6CD46BEBFB8CBCD /* Kirsch.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Kirsch.framework; path = Kirsch.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		67AD4A4783D8ECC81E21DEEC460366E8 /* Pods_Kirsch_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Kirsch_Example.framework; path = "Pods-Kirsch_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		67D35DDECF5517B223396F56D1D2BC6B /* Pods-Kirsch_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Kirsch_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		7149CE6BFE8C70C04F6F48AA6EC829D1 /* Kirsch-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Kirsch-dummy.m"; sourceTree = "<group>"; };
+		736C79569C122357E16D5DFCD30263EC /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7E82EE72C8D3F5D44BF75DC24068B5FA /* Pods-Kirsch_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Kirsch_Example-resources.sh"; sourceTree = "<group>"; };
+		82D3F546B8B5F0FDFF37436404173251 /* CIImage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CIImage.swift; sourceTree = "<group>"; };
+		82F23BF64354D05544F2E2E0F8697577 /* Pods-Kirsch_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-Kirsch_Example.modulemap"; sourceTree = "<group>"; };
+		8C23C5410D10A05AAE871CD09015B7AC /* Pods-Kirsch_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Kirsch_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		8C61B9C8CD863830CB32F1A8D47D783E /* CSConstants.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CSConstants.swift; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9AD1B125D4CC37C0FD7669B32A04C43A /* Pods-Kirsch_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Kirsch_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		9B8EB1811D9E33FCA6C19A7E8FB12AA6 /* Pods-Kirsch_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-Kirsch_Tests.modulemap"; sourceTree = "<group>"; };
+		AF5010B54F9340A99B4303E348F2F6CB /* Pods-Kirsch_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Kirsch_Tests-umbrella.h"; sourceTree = "<group>"; };
+		B25D3D90A669930DA186194CB9C8EB84 /* Pods-Kirsch_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Kirsch_Tests-dummy.m"; sourceTree = "<group>"; };
+		B3C5B988F350BFB254D5F26FABE0111E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C30AA724D9F26159C6863ED4F9012B34 /* Pods-Kirsch_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Kirsch_Tests-resources.sh"; sourceTree = "<group>"; };
+		C74C0E3A05B059302FAF4CE905347C33 /* CSPoint.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CSPoint.swift; sourceTree = "<group>"; };
+		E33894F50BE0F52C7A7FA290B2520835 /* Pods-Kirsch_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Kirsch_Example.release.xcconfig"; sourceTree = "<group>"; };
+		E75B3BD70F1548C4BD4E590F8E61B034 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA6D55BBBD4C7D6416E059A99E8385EC /* Kirsch.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Kirsch.xcconfig; sourceTree = "<group>"; };
+		EB093381356D157332D4333A13437780 /* Kirsch.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = Kirsch.modulemap; sourceTree = "<group>"; };
+		EDD6A518D653CE8255F386247EFDC585 /* Kirsch-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Kirsch-prefix.pch"; sourceTree = "<group>"; };
+		EE4BB9A5972C4E9BEA6CD888BD6749AA /* Pods-Kirsch_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Kirsch_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		F13C580F9A395C3DC4F7D5FCE1C9EBCB /* Pods-Kirsch_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Kirsch_Example-frameworks.sh"; sourceTree = "<group>"; };
+		FFBF6521FFA99928FCC38D7114A0B023 /* Pods_Kirsch_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Kirsch_Tests.framework; path = "Pods-Kirsch_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		76D7E5BD46EDE60E3B5D33CB0D2165AD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				497B746302BAAAEB0338D24AA8F6F24B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		803FEC4F4FE89E08D048D212938F1AD5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D11D832121B45EE781C77747E41CEE3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD62FC4288169CA59F112FB412C94DEF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3E7F71B84087A497A8129A9C041F92D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3AAA1E1C85DE9D6166495A588D64306E /* Pods-Kirsch_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				E75B3BD70F1548C4BD4E590F8E61B034 /* Info.plist */,
+				9B8EB1811D9E33FCA6C19A7E8FB12AA6 /* Pods-Kirsch_Tests.modulemap */,
+				9AD1B125D4CC37C0FD7669B32A04C43A /* Pods-Kirsch_Tests-acknowledgements.markdown */,
+				59DA456C26BBEBD9E7ADB12BBC9698DC /* Pods-Kirsch_Tests-acknowledgements.plist */,
+				B25D3D90A669930DA186194CB9C8EB84 /* Pods-Kirsch_Tests-dummy.m */,
+				34A8026B80904A98B701E41A51086F28 /* Pods-Kirsch_Tests-frameworks.sh */,
+				C30AA724D9F26159C6863ED4F9012B34 /* Pods-Kirsch_Tests-resources.sh */,
+				AF5010B54F9340A99B4303E348F2F6CB /* Pods-Kirsch_Tests-umbrella.h */,
+				3EA49763AA426F7E0590B5711A94831B /* Pods-Kirsch_Tests.debug.xcconfig */,
+				8C23C5410D10A05AAE871CD09015B7AC /* Pods-Kirsch_Tests.release.xcconfig */,
+			);
+			name = "Pods-Kirsch_Tests";
+			path = "Target Support Files/Pods-Kirsch_Tests";
+			sourceTree = "<group>";
+		};
+		43DB8F44DEC890528C4AE767016D6FE2 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				736C79569C122357E16D5DFCD30263EC /* Info.plist */,
+				EB093381356D157332D4333A13437780 /* Kirsch.modulemap */,
+				EA6D55BBBD4C7D6416E059A99E8385EC /* Kirsch.xcconfig */,
+				7149CE6BFE8C70C04F6F48AA6EC829D1 /* Kirsch-dummy.m */,
+				EDD6A518D653CE8255F386247EFDC585 /* Kirsch-prefix.pch */,
+				1BEEB50B9293AF3758B9BD517E1CCE82 /* Kirsch-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/Kirsch";
+			sourceTree = "<group>";
+		};
+		55E1FB4823D85F8E496FFC902DD1D0DD /* Kirsch */ = {
+			isa = PBXGroup;
+			children = (
+				981DEE950C2B6874DE0B6987A008ED66 /* Kirsch */,
+				43DB8F44DEC890528C4AE767016D6FE2 /* Support Files */,
+			);
+			name = Kirsch;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		73CFD0E0CDED42976FF9C8C0E717F995 /* Pods-Kirsch_Example */ = {
+			isa = PBXGroup;
+			children = (
+				B3C5B988F350BFB254D5F26FABE0111E /* Info.plist */,
+				82F23BF64354D05544F2E2E0F8697577 /* Pods-Kirsch_Example.modulemap */,
+				67D35DDECF5517B223396F56D1D2BC6B /* Pods-Kirsch_Example-acknowledgements.markdown */,
+				4952D8E713FE591FA563B97E88F7AAA0 /* Pods-Kirsch_Example-acknowledgements.plist */,
+				109F8F63D5D7483C9A905D123993208A /* Pods-Kirsch_Example-dummy.m */,
+				F13C580F9A395C3DC4F7D5FCE1C9EBCB /* Pods-Kirsch_Example-frameworks.sh */,
+				7E82EE72C8D3F5D44BF75DC24068B5FA /* Pods-Kirsch_Example-resources.sh */,
+				29FF3B5EBE3EB89FD3A9593D76C6897D /* Pods-Kirsch_Example-umbrella.h */,
+				EE4BB9A5972C4E9BEA6CD888BD6749AA /* Pods-Kirsch_Example.debug.xcconfig */,
+				E33894F50BE0F52C7A7FA290B2520835 /* Pods-Kirsch_Example.release.xcconfig */,
+			);
+			name = "Pods-Kirsch_Example";
+			path = "Target Support Files/Pods-Kirsch_Example";
+			sourceTree = "<group>";
+		};
+		76A2134E4329DE97674AC92178808F94 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				0517D0AC46F7DF6AD5640AA545F9F0A0 /* CGPoint.swift */,
+				19D561ADDBD1CDD59797C69ADB4E0081 /* CGRect.swift */,
+				82D3F546B8B5F0FDFF37436404173251 /* CIImage.swift */,
+				8C61B9C8CD863830CB32F1A8D47D783E /* CSConstants.swift */,
+				384ECCE02F27989279F20BCE639AECFE /* CSEnums.swift */,
+				C74C0E3A05B059302FAF4CE905347C33 /* CSPoint.swift */,
+				13AD09DC1D86C6EAEBC8BCAC6355801A /* CSRectangle.swift */,
+				1B34718BF000C53BBF7A2C75B688E896 /* Kirsch.swift */,
+			);
+			name = Classes;
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				C232C5928468323D154028DFF7F0630E /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				E377167548DC2D2920A25977C3E8BFC1 /* Products */,
+				8E2AF84A0E1AA274F6DE943776095569 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8E2AF84A0E1AA274F6DE943776095569 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				73CFD0E0CDED42976FF9C8C0E717F995 /* Pods-Kirsch_Example */,
+				3AAA1E1C85DE9D6166495A588D64306E /* Pods-Kirsch_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		981DEE950C2B6874DE0B6987A008ED66 /* Kirsch */ = {
+			isa = PBXGroup;
+			children = (
+				76A2134E4329DE97674AC92178808F94 /* Classes */,
+			);
+			name = Kirsch;
+			path = Kirsch;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C232C5928468323D154028DFF7F0630E /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				55E1FB4823D85F8E496FFC902DD1D0DD /* Kirsch */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		E377167548DC2D2920A25977C3E8BFC1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5D69FFB65982E240C6CD46BEBFB8CBCD /* Kirsch.framework */,
+				67AD4A4783D8ECC81E21DEEC460366E8 /* Pods_Kirsch_Example.framework */,
+				FFBF6521FFA99928FCC38D7114A0B023 /* Pods_Kirsch_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		5770360067C279D3514E43803DF67205 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA75421A56325FDCE54AA433FDD85E55 /* Pods-Kirsch_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B52C51097D838B4FAFB59ACB8A52225 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D1EFFE35EA3D232C7314369C2952113 /* Pods-Kirsch_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92287BCA478BFFEBE1B464463AB12F12 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0AED8B151476A22849098AD0C40DFD09 /* Kirsch-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		11BA07C08FDB68C83D8A18BE59168988 /* Kirsch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E95DC529B26E4153192A58C90180E3FB /* Build configuration list for PBXNativeTarget "Kirsch" */;
+			buildPhases = (
+				68EC6B8611F7E40C0C42CCCA67596EE4 /* Sources */,
+				DD62FC4288169CA59F112FB412C94DEF /* Frameworks */,
+				92287BCA478BFFEBE1B464463AB12F12 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Kirsch;
+			productName = Kirsch;
+			productReference = 5D69FFB65982E240C6CD46BEBFB8CBCD /* Kirsch.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		3BD89BBD78B659FD78B3D9FA940371B3 /* Pods-Kirsch_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E5AA5C884B6B7F090F4339797D846CE2 /* Build configuration list for PBXNativeTarget "Pods-Kirsch_Example" */;
+			buildPhases = (
+				04A060FC1D636CBB6C76C5F075CB18B7 /* Sources */,
+				76D7E5BD46EDE60E3B5D33CB0D2165AD /* Frameworks */,
+				6B52C51097D838B4FAFB59ACB8A52225 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A2DFD890CA8895DB0B6199FE0296D7C3 /* PBXTargetDependency */,
+			);
+			name = "Pods-Kirsch_Example";
+			productName = "Pods-Kirsch_Example";
+			productReference = 67AD4A4783D8ECC81E21DEEC460366E8 /* Pods_Kirsch_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B5E635472E3CEED00D28260DE165F176 /* Pods-Kirsch_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC8DE229B7A1F61C0B4C27B3F2151660 /* Build configuration list for PBXNativeTarget "Pods-Kirsch_Tests" */;
+			buildPhases = (
+				644063D992F95350BD007A502C9E2CF2 /* Sources */,
+				803FEC4F4FE89E08D048D212938F1AD5 /* Frameworks */,
+				5770360067C279D3514E43803DF67205 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-Kirsch_Tests";
+			productName = "Pods-Kirsch_Tests";
+			productReference = FFBF6521FFA99928FCC38D7114A0B023 /* Pods_Kirsch_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = E377167548DC2D2920A25977C3E8BFC1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				11BA07C08FDB68C83D8A18BE59168988 /* Kirsch */,
+				3BD89BBD78B659FD78B3D9FA940371B3 /* Pods-Kirsch_Example */,
+				B5E635472E3CEED00D28260DE165F176 /* Pods-Kirsch_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		04A060FC1D636CBB6C76C5F075CB18B7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27C14386B601E0F49574BC596B25EBD7 /* Pods-Kirsch_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		644063D992F95350BD007A502C9E2CF2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07B309B8BAB20CA7B3F06A5B7F63AED5 /* Pods-Kirsch_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		68EC6B8611F7E40C0C42CCCA67596EE4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44A344FD660930909733AEC9503A2857 /* CGPoint.swift in Sources */,
+				105891C68E99A0FAD0897FE89D8049E6 /* CGRect.swift in Sources */,
+				56ADC8C5A63C44525438075153E4F7DF /* CIImage.swift in Sources */,
+				252D3FA7E9ABF2ACD65B4077830BBD74 /* CSConstants.swift in Sources */,
+				40015C2F17DF3D0C02F2DE47F9D31908 /* CSEnums.swift in Sources */,
+				7871D8C85CE744A634386037904C2327 /* CSPoint.swift in Sources */,
+				AD56CDB8EF09F55BDD1436C12A59002D /* CSRectangle.swift in Sources */,
+				B15B7A5360DED6383165EE8BB2DB02D0 /* Kirsch-dummy.m in Sources */,
+				46CA23BBBF4DF54CB852FE321A059EC2 /* Kirsch.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A2DFD890CA8895DB0B6199FE0296D7C3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Kirsch;
+			target = 11BA07C08FDB68C83D8A18BE59168988 /* Kirsch */;
+			targetProxy = 2F42078B315A8C251BD4DBAC75174AF3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		157AF0CD5E5AB2A2E74D3B8ECD865185 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3F7D0B61BAA9881820EF06B178FB1984 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8C23C5410D10A05AAE871CD09015B7AC /* Pods-Kirsch_Tests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Kirsch_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Kirsch_Tests/Pods-Kirsch_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Kirsch_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7605F2D24C7FCB64BF3B48E5AC202C90 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3EA49763AA426F7E0590B5711A94831B /* Pods-Kirsch_Tests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Kirsch_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Kirsch_Tests/Pods-Kirsch_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Kirsch_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8CF54A1DC19C1B172B6D0ADF1D59564D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EE4BB9A5972C4E9BEA6CD888BD6749AA /* Pods-Kirsch_Example.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Kirsch_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Kirsch_Example/Pods-Kirsch_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Kirsch_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		9C31C9E64079FA23329D7FBFBBBF2DA3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EA6D55BBBD4C7D6416E059A99E8385EC /* Kirsch.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Kirsch/Kirsch-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Kirsch/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Kirsch/Kirsch.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = Kirsch;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D7B1487F48E36BAD2CEF0AFCA4908B67 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		E2763DB9292B8AADDFA0FED3A40FB359 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EA6D55BBBD4C7D6416E059A99E8385EC /* Kirsch.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Kirsch/Kirsch-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Kirsch/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Kirsch/Kirsch.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = Kirsch;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F69268052FDE8E6C65CE3A971AF173CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E33894F50BE0F52C7A7FA290B2520835 /* Pods-Kirsch_Example.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Kirsch_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Kirsch_Example/Pods-Kirsch_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Kirsch_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7B1487F48E36BAD2CEF0AFCA4908B67 /* Debug */,
+				157AF0CD5E5AB2A2E74D3B8ECD865185 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BC8DE229B7A1F61C0B4C27B3F2151660 /* Build configuration list for PBXNativeTarget "Pods-Kirsch_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7605F2D24C7FCB64BF3B48E5AC202C90 /* Debug */,
+				3F7D0B61BAA9881820EF06B178FB1984 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E5AA5C884B6B7F090F4339797D846CE2 /* Build configuration list for PBXNativeTarget "Pods-Kirsch_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8CF54A1DC19C1B172B6D0ADF1D59564D /* Debug */,
+				F69268052FDE8E6C65CE3A971AF173CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E95DC529B26E4153192A58C90180E3FB /* Build configuration list for PBXNativeTarget "Kirsch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E2763DB9292B8AADDFA0FED3A40FB359 /* Debug */,
+				9C31C9E64079FA23329D7FBFBBBF2DA3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

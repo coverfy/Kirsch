@@ -1,0 +1,16 @@
+PODS:
+  - Kirsch (0.2.8)
+
+DEPENDENCIES:
+  - Kirsch (from `../`)
+
+EXTERNAL SOURCES:
+  Kirsch:
+    :path: ../
+
+SPEC CHECKSUMS:
+  Kirsch: 1fc4dd888e5a68bbf358ecd764333dc1182f9c5f
+
+PODFILE CHECKSUM: 9170752eac2ad9d5566f89d7391f604358dcd434
+
+COCOAPODS: 1.2.1

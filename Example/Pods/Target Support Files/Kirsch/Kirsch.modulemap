@@ -1,0 +1,6 @@
+framework module Kirsch {
+  umbrella header "Kirsch-umbrella.h"
+
+  export *
+  module * { export * }
+}
