@@ -118,7 +118,7 @@ func getCapturedImageFiltered(_ image: UIImage?) {
 ## Credits
 This project has been developed to integrte into the Coverfy App. An app to organize all your insurances, take a look at it https://www.coverfy.com!
 
-![alt text](https://www.coverfy.com/wp-content/uploads/2016/07/coverfy-logo.png=250x250)
+![alt text](https://www.coverfy.com/wp-content/uploads/2016/07/coverfy-logo.png | width=100)
 
 ## Base project
 Some ideas of this scanner has been taken from the IRLScanner (https://github.com/hartws1/IRLScanner)
