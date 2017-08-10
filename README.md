@@ -78,7 +78,7 @@ scanner.isFlashActive // Activate the flashlight of the phone
 ```swift 
 scanner.configure() // Configure the scanner
 scanner.start() // Start the scanner
-swift scanner.stop() // Stop the scanner
+scanner.stop() // Stop the scanner
 ```
 
 Note: that the configure() should be called before the start() function.
