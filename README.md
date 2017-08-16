@@ -1,4 +1,4 @@
-<img src="https://raw.githubusercontent.com/coverfy/Kirsch/master/Custom%20Preset.png" class="centerImage" alt="image" width="500" height="200"/>
+![Kirsch](https://raw.githubusercontent.com/coverfy/Kirsch/master/Custom%20Preset.png)
 
 [![CI Status](http://img.shields.io/travis/josepbordesjove/Kirsch.svg?style=flat)](https://travis-ci.org/josepbordesjove/Kirsch)
 [![Version](https://img.shields.io/cocoapods/v/Kirsch.svg?style=flat)](http://cocoapods.org/pods/Kirsch)
